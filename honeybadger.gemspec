@@ -1,7 +1,7 @@
 require File.expand_path('../lib/honeybadger/version.rb', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = 'honeybadger'
+  s.name        = 'hb-ruby-release'
   s.version     = Honeybadger::VERSION
   s.platform    = Gem::Platform::RUBY
   s.summary     = 'Error reports you can be happy about.'
