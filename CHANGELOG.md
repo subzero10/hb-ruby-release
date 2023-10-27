@@ -1,5 +1,17 @@
 # Change Log
 
+## [5.3.0](https://github.com/subzero10/hb-ruby-release/compare/v5.2.1...v5.3.0) (2023-10-27)
+
+
+### Features
+
+* dummy commit type to trigger minor version bump ([db06e7d](https://github.com/subzero10/hb-ruby-release/commit/db06e7d153ec652b5659762d217c902954755cfe))
+
+
+### Bug Fixes
+
+* Make notify work with proper ruby keyword arguments ([#498](https://github.com/subzero10/hb-ruby-release/issues/498)) ([e4a006c](https://github.com/subzero10/hb-ruby-release/commit/e4a006cfb2a2ecbab2f742b6e9f9c8e9b8958430))
+
 ## [Unreleased]
 ### Added
 - Support for Karafka (#480)
