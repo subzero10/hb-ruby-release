@@ -1,19 +1,24 @@
 # Change Log
 
-## [Unreleased]
-### Added
-- Support for Karafka (#480)
-- Support for nested `to_honeybadger_context` (#488)
-- Explain 413 responses from API (#492)
+## [5.3.0](https://github.com/subzero10/hb-ruby-release/compare/v5.2.1...v5.3.0) (2023-10-27)
 
-### Fixed
-- `Honeybadger::Config#respond_to?` would always return true (#490)
-- `Honeybadger::Agent#notify` takes keyword arguments instead of an options hash now (#498)
+### Features
 
-### Changed
-- Accept three arguments for the Sidekiq error handler (#495)
-- Log level of init message changed to DEBUG (#497)
-- Add .tool-versions to set ruby version for development (#501) 
+* dummy commit type to trigger minor version bump ([db06e7d](https://github.com/subzero10/hb-ruby-release/commit/db06e7d153ec652b5659762d217c902954755cfe))
+* Support for Karafka (#480)
+* Support for nested `to_honeybadger_context` (#488)
+* Explain 413 responses from API (#492)
+* Accept three arguments for the Sidekiq error handler (#495)
+* Log level of init message changed to DEBUG (#497)
+* Add .tool-versions to set ruby version for development (#501) 
+
+
+### Bug Fixes
+
+* Make notify work with proper ruby keyword arguments ([#498](https://github.com/subzero10/hb-ruby-release/issues/498)) ([e4a006c](https://github.com/subzero10/hb-ruby-release/commit/e4a006cfb2a2ecbab2f742b6e9f9c8e9b8958430))
+* `Honeybadger::Config#respond_to?` would always return true (#490)
+* `Honeybadger::Agent#notify` takes keyword arguments instead of an options hash now (#498)
+
 
 ## [5.2.1] - 2023-03-14
 ### Fixed
