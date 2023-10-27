@@ -30,7 +30,7 @@ jobs:
         id: release
         with:
           release-type: ruby
-          package-name: honeybadger
+          package-name: hb-ruby-release
           version-file: lib/honeybadger/version.rb
 
       - name: Publish gem
