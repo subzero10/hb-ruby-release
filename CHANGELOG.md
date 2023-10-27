@@ -1,5 +1,12 @@
 # Change Log
 
+## [5.4.0](https://github.com/subzero10/hb-ruby-release/compare/v5.3.0...v5.4.0) (2023-10-27)
+
+
+### Features
+
+* another dummy commit ([98dfed9](https://github.com/subzero10/hb-ruby-release/commit/98dfed9e503cf358227d18de55691bea8829587f))
+
 ## [5.3.0](https://github.com/subzero10/hb-ruby-release/compare/v5.2.1...v5.3.0) (2023-10-27)
 
 ### Features
